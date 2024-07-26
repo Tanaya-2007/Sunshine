@@ -1,0 +1,104 @@
+/* Media queries */
+@media screen and (max-width:1200px){
+    #contact{
+        display: none;
+    }
+}
+@media screen and (max-width:500px){
+    .section{
+        display:none;
+    }
+   
+   #home h2{
+    font-size:5vw;
+   }
+   nav
+   { padding:35px 40px;}
+
+   #home h1{
+    font-size:30%;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 1rem;
+   }
+   .heading
+{
+        margin-top: 50%;
+}
+.hero-btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:15px;
+    
+}
+.btn 
+{
+    margin: 10px;
+}
+.btn a{
+    font-size:14px;
+}
+
+
+
+}
+
+@media screen and (max-width:400px){
+     nav
+       { 
+        padding:30px 30px;
+       }
+       .section{
+        display: none;
+       }
+       nav h2{
+        font-weight:300;
+       }
+       #home h1{
+        font-size:25px;
+        font-weight: 800;
+        text-align: center;
+        letter-spacing: 1rem;
+       }
+
+       .heading
+       {
+        margin-top: 180px;
+       }
+    .hero-btn
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top:15px;
+        
+    }
+    .main-box,
+    .box-side{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .box,
+    #corner{
+        width:360px;
+    }
+    .box h3{
+        font-size: 20px;
+    }
+    .box p{
+        font-size:15px;
+        padding-bottom:5%;
+    }
+    .btns{
+       margin-left: 50%;
+       margin-bottom: 10%;
+    }
+    #Testimonials{
+       padding:30px 40px;
+    }
+    
+}
